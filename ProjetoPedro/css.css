@@ -1,0 +1,96 @@
+body {
+    background-color: #9f2be2; 
+    font-family: 'Arial', sans-serif;
+    margin: 10px; /* Adicionado 'px' para a margem */
+    padding: 10px; /* Adicionado 'px' para o preenchimento */
+}
+
+.container {
+    width: 70%;
+    max-width: 1500px; 
+    margin: 0 auto;
+}
+
+header {
+    background-color: wheat;
+    color: black;
+    padding: 25px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 200px; 
+}
+
+header .info {
+    margin-left: 50px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h1, h2, h3 {
+    color: #0f0f0f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 50px; 
+}
+
+#login-form {
+    margin-top: 50px;
+}
+
+#login-form form {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#login-form button {
+    background-color: black;
+    color: white; /* Cor da fonte alterada para branco para melhor visibilidade */
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.top-icons {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 35px;
+    color: #333;
+    cursor: pointer;
+}
+
+.icons a:hover {
+    color: #1622cf; /* Cor de destaque ao passar o mouse */
+}
